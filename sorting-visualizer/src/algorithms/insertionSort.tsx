@@ -1,6 +1,6 @@
 import { Animation } from "@/types/Animation";
 
-export function insertSort(array: number[], animations: Animation[]): number[] {
+export function insertionSort(array: number[], animations: Animation[]): number[] {
   const n = array.length;
 
   for (let i = 1; i < n; i++) {
